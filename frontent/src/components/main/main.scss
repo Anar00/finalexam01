@@ -1,0 +1,253 @@
+.started {
+  width: 100%;
+}
+.div{
+    opacity: 0.9;
+    background-color: #000000;
+}
+.imgbacground {
+  position: relative;
+  width: 100%;
+margin-top: -80px;
+  background-image: url("http://htmlbeans.com/html/swan/images/img05.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  .contanier-main {
+    padding-left: 300px;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .left-main {
+      width: 100%;
+      h1 {
+        color: aliceblue;
+        font-size: 48px;
+        font-weight: 700;
+      }
+      .template {
+        color: #698cf0;
+      }
+      .exporle {
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 700px;
+        width: 150px;
+        height: 50px;
+        border: none;
+        margin-right: 20px;
+        color: white;
+        background-color: #698cf0;
+        &:hover {
+          background-color: black;
+          color: #698cf0;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+  .right-register {
+    margin-top: 80px;
+    padding: 20px;
+    width: 420px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hearder-text {
+      text-align: center;
+      .text-trial {
+        margin-bottom: 40px;
+      }
+    }
+    input {
+      border: none;
+      height: 40px;
+      width: 390px;
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+    .botton {
+      width: 390px;
+      height: 80px;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      button {
+        font-size: 12px;
+        font-weight: 700px;
+        width: 120px;
+        height: 40px;
+        border: none;
+        margin-right: 20px;
+        color: white;
+        background-color: #698cf0;
+        &:hover {
+          background-color: black;
+          color: #698cf0;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
+.about {
+  margin-top: 80px;
+  text-align: center;
+  .about-swan-lake {
+    padding-bottom: 50px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    font-size: 28px;
+  }
+}
+.about-cards {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  .card {
+    width: 200px;
+    .card-number {
+      color: #698cf0;
+      font-size: 28px;
+      margin-bottom: 30px;
+      font-weight: 700;
+    }
+    .card-hearder-text {
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .card-text {
+      color: #9b9b9b;
+    }
+    .read-more{
+        margin-top: 20px;
+        color: #698cf0;
+        font-weight: 700;
+        font-size: 12px;
+    }
+  }
+}
+.services{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    .services-left{
+        padding-bottom: 30px;
+        width: 500px;
+        background-color: #212121;
+        height: 400px;
+        .cards-hearder{
+            display: flex; 
+        }
+        #card-service{
+            padding: 30px;
+            text-align: center;
+            width: 250px;
+            height: 200px;
+            img{
+                margin-top: 20px;
+            }
+            p{
+                
+                color: #698cf0;
+            }
+            .fa-solid{
+                
+                color: #698cf0;
+                margin: auto;
+                padding-bottom: 40px;
+            }
+        }
+    }
+}
+.service-right{
+    width: 600px;
+margin-left: 80px;
+
+.service-text-hearder{
+    display: flex;
+    font-weight: 700;
+        font-size: 28px;
+
+}
+.service-text{
+    color: rgb(163, 163, 163);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+ul{
+    color: #777777;
+    margin-left: 15px;
+}
+}
+
+.table{
+    padding-top: 80px;
+        text-align: center;
+        margin: 0 auto;
+        width: 1200px;
+        .table-head{font-size: 28px;
+                font-weight: 600;
+            margin-left: 520px;
+            display: flex;
+            .great{
+                border: 1px solid burlywood;  
+                color: #698cf0
+            }
+           .lor{
+            color: rgb(163, 163, 163);
+           }
+        }
+}
+.table-cards{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+.table-card{
+    width: 250px;
+}
+.card-hearder-{
+    margin:  20px 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+.money{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 38px;
+    color: #698cf0
+}
+.hearder-text-card{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.card-main-head{
+    margin: 40px 0;
+    font-size: 18px;
+font-weight: 700;
+}
+.card-lorem{
+    color: rgb(163, 163, 163);
+}
+.order-now{
+    margin-top: 20px;
+    color: #698cf0
+}
